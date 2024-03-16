@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Freightdog</title>
+<link rel="stylesheet" href="contato.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="header">
+            <a id="logo" href="#">
+                <img src="img/icone.svg" alt="logo">
+            </a>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+        <form class="fale-conosco" action="/submit" method="post">
+            <h2>Fale Conosco</h2>
+        
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br>
+        
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+        
+            <label for="objetivo">Serviços</label><br>
+            <select id="objetivo" name="objetivo">
+                <option value="forca">Escolinha</option>
+                <option value="cardio">Hospedagem</option>
+                <option value="flexibilidade">Adestramento</option>
+                <option value="funcional">Diária</option>
+            </select><br>
+        
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea><br>
+        
+            <input type="submit" value="Enviar">
+        </form>
+        
+        <main>
+             
+        </main>
+
+        <footer>
+            <p>Fale concosco no instagram <strong>@freightdog</p>
+        </footer>
+    </div>
+</body>
+</html>

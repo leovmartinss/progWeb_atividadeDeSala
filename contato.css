@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background: #FAF0EE;
+}
+
+.container {
+    margin: 0 auto;
+    padding-top: 65px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 55px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 48px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+button:hover {
+    background: #407764;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 133px;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    color: #29533B;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: auto;
+    background-color: #FAF0EE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+form h2 {
+    color: #29533B;
+}
+
+form label {
+    color: #29533B;
+    margin-top: 10px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #29533B;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type="submit"] {
+    background-color: #29533B;
+    color: #FAF0EE;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #89C5CC;
+}
+
+.fale-conosco {
+    margin-left: 30%;
+}
+
+
